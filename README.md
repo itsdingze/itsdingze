@@ -1,19 +1,15 @@
 ## About Me
 
 ```typescript
-const developer = {
+const dingze = {
   name: "Dingze Yu",
-  stack: {
-    iOS: ["SwiftUI", "SwiftData"],
-    web: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-  },
-  architecture: ["MVVM", "Clean Architecture"],
-  superpowers: [
-    "Turning Figma dreams into responsive reality",
-  ],
-  buildApp: (platform: "iOS" | "web") =>
+  role: "Designer and developer. Yes, both. No, I can't pick one.",
+  designsIn: ["Figma", "my head at 2am"],
+  buildsWith: ["SwiftUI", "React", "Next.js", "TypeScript", "Tailwind"],
+  superpower: "Designs the app, then builds the app. No handoff meetings.",
+  buildApp: (platform) =>
     platform === "iOS"
-      ? { ui: "SwiftUI", quality: "exceptional", coffee: "required" }
-      : { ui: "React", performance: "blazing", pixels: "perfect" },
-};
+      ? "Pixel perfect on iPhone. Because I drew the pixels."
+      : "Looks exactly like the mockup. Suspiciously exactly.",
+}
 ```
