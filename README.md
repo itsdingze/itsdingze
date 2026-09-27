@@ -2,7 +2,7 @@
 
 ```typescript
 const dingze = {
-  name: "Dingze Yu",
+  name: "Dingze",
   role: "Designer and developer. Yes, both. No, I can't pick one.",
   designsIn: ["Figma", "my head at 2am"],
   buildsWith: ["SwiftUI", "React", "Next.js", "TypeScript", "Tailwind"],
